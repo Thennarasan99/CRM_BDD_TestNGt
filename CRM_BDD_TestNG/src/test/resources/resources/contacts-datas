@@ -1,0 +1,32 @@
+
+
+**********************  CONTACTS-DATA  **********************************
+
+contacts.firstname=Arasu
+
+contacts.lastname=selvam
+
+ contacts.companyname=abc-pvt-ltd
+ 
+ contacts.category=Customer
+ 
+ contacts.status=Active
+ 
+ contacts.description=demo
+ 
+ contacts.address=chennai
+ 
+ contacts.zipcode=603305
+ 
+ contacts.state=tamilnadu
+ 
+ contacts.country=India
+ 
+ contacts.source=Google
+ 
+ contacts.contactsname=Arasu selvam
+ 
+ 
+ 
+ 
+ 

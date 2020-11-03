@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-CRM_automation">
+              <span class="suite-name border-passed">CRM_automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-CRM_automation">
+                    <span>D:\CRM_BDD_TestNG\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-CRM_automation">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-CRM_automation">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-CRM_automation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-CRM_automation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-CRM_automation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-CRM_automation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CRM_automation" class="hide-methods passed suite-CRM_automation"> (hide)</a> <!-- hide-methods passed suite-CRM_automation -->
+                      <a href="#" panel-name="suite-CRM_automation" class="show-methods passed suite-CRM_automation"> (show)</a> <!-- show-methods passed suite-CRM_automation -->
+                    </span>
+                    <div class="method-list-content passed suite-CRM_automation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CRM_automation" title="com.crmautomation.TestRunner.testrunner_ex" hash-for-method="feature(&quot;check login successful with valid credentials&quot;, &quot;feature to test  login functionality with valid an...)">feature("check login successful with valid credentials", "feature to test  login functionality with valid an...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CRM_automation" title="com.crmautomation.TestRunner.testrunner_ex" hash-for-method="feature(&quot;check login error with invalid credentials&quot;, &quot;feature to test  login functionality with valid and i...)">feature("check login error with invalid credentials", "feature to test  login functionality with valid and i...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CRM_automation" title="com.crmautomation.TestRunner.testrunner_ex" hash-for-method="feature(&quot;check Existing contacts functionality&quot;, &quot;feature to test add contacts functionality&quot;)">feature("check Existing contacts functionality", "feature to test add contacts functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CRM_automation" title="com.crmautomation.TestRunner.testrunner_ex" hash-for-method="feature(&quot;check add contacts functionality&quot;, &quot;feature to test add contacts functionality&quot;)">feature("check add contacts functionality", "feature to test add contacts functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CRM_automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CRM_automation" class="panel CRM_automation">
+          <div class="suite-CRM_automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crmautomation.TestRunner.testrunner_ex</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature(&quot;check login successful with valid credentials&quot;, &quot;feature to test  login functionality with valid an...)">
+                  </a> <!-- feature("check login successful with valid credentials", "feature to test  login functionality with valid an...) -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">("check login successful with valid credentials", "feature to test  login functionality with valid and invalid credentials")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature(&quot;check login error with invalid credentials&quot;, &quot;feature to test  login functionality with valid and i...)">
+                  </a> <!-- feature("check login error with invalid credentials", "feature to test  login functionality with valid and i...) -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">("check login error with invalid credentials", "feature to test  login functionality with valid and invalid credentials")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature(&quot;check Existing contacts functionality&quot;, &quot;feature to test add contacts functionality&quot;)">
+                  </a> <!-- feature("check Existing contacts functionality", "feature to test add contacts functionality") -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">("check Existing contacts functionality", "feature to test add contacts functionality")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature(&quot;check add contacts functionality&quot;, &quot;feature to test add contacts functionality&quot;)">
+                  </a> <!-- feature("check add contacts functionality", "feature to test add contacts functionality") -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">("check add contacts functionality", "feature to test add contacts functionality")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CRM_automation-class-passed -->
+        </div> <!-- panel CRM_automation -->
+        <div panel-name="test-xml-CRM_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\CRM_BDD_TestNG\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;CRM_automation&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.ExtentreportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Automation Test Report&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.crmautomation.TestRunner.testrunner_ex&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Automation Test Report --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- CRM_automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CRM_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CRM_automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Automation Test Report (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test (0 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CRM_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CRM_automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CRM_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CRM_automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CRM_automation');
+function tableData_CRM_automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'feature')
+data.setCell(0, 2, 'com.crmautomation.TestRunner.testrunner_ex')
+data.setCell(0, 3, 44534);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'feature')
+data.setCell(1, 2, 'com.crmautomation.TestRunner.testrunner_ex')
+data.setCell(1, 3, 41122);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'feature')
+data.setCell(2, 2, 'com.crmautomation.TestRunner.testrunner_ex')
+data.setCell(2, 3, 37261);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'feature')
+data.setCell(3, 2, 'com.crmautomation.TestRunner.testrunner_ex')
+data.setCell(3, 3, 25029);
+window.suiteTableData['CRM_automation']= { tableData: data, tableDiv: 'times-div-CRM_automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-CRM_automation">
+              </div> <!-- times-div-CRM_automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CRM_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CRM_automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CRM_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CRM_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crmautomation.TestRunner.testrunner_ex</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">feature("check add contacts functionality", "feature to test add contacts functionality")</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">feature("check Existing contacts functionality", "feature to test add contacts functionality")</span>
+                <span class="method-start">41248 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">feature("check login successful with valid credentials", "feature to test  login functionality with valid an...)</span>
+                <span class="method-start">85785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">feature("check login error with invalid credentials", "feature to test  login functionality with valid and i...)</span>
+                <span class="method-start">110817 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">148083 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

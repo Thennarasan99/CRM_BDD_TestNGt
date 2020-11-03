@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CRM_automation" duration-ms="148278" started-at="2020-11-03T03:59:09Z" finished-at="2020-11-03T04:01:37Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crmautomation.TestRunner.testrunner_ex@17046283]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Automation Test Report" duration-ms="148246" started-at="2020-11-03T03:59:09Z" finished-at="2020-11-03T04:01:37Z">
+      <class name="com.crmautomation.TestRunner.testrunner_ex">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.crmautomation.TestRunner.testrunner_ex@17046283]" name="setUpClass" is-config="true" duration-ms="95" started-at="2020-11-03T03:59:09Z" finished-at="2020-11-03T03:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crmautomation.TestRunner.testrunner_ex@17046283]" name="feature" duration-ms="41122" started-at="2020-11-03T03:59:09Z" data-provider="features" finished-at="2020-11-03T03:59:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check add contacts functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to test add contacts functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crmautomation.TestRunner.testrunner_ex@17046283]" name="feature" duration-ms="44534" started-at="2020-11-03T03:59:50Z" data-provider="features" finished-at="2020-11-03T04:00:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check Existing contacts functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to test add contacts functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crmautomation.TestRunner.testrunner_ex@17046283]" name="feature" duration-ms="25029" started-at="2020-11-03T04:00:35Z" data-provider="features" finished-at="2020-11-03T04:01:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check login successful with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to test  login functionality with valid and invalid credentials"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crmautomation.TestRunner.testrunner_ex@17046283]" name="feature" duration-ms="37261" started-at="2020-11-03T04:01:00Z" data-provider="features" finished-at="2020-11-03T04:01:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check login error with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to test  login functionality with valid and invalid credentials"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.crmautomation.TestRunner.testrunner_ex@17046283]" name="tearDownClass" is-config="true" duration-ms="155" started-at="2020-11-03T04:01:37Z" finished-at="2020-11-03T04:01:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.crmautomation.TestRunner.testrunner_ex -->
+    </test> <!-- Automation Test Report -->
+    <test name="Test" duration-ms="0" started-at="2020-11-03T04:01:37Z" finished-at="2020-11-03T04:01:37Z">
+    </test> <!-- Test -->
+  </suite> <!-- CRM_automation -->
+</testng-results>
